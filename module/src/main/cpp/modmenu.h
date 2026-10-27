@@ -14,7 +14,7 @@
 
 static int enable_hack;
 static char *game_data_dir = nullptr;
-static char *game_package_name = "com.game.packagename";
+static char *game_package_name = "com.dts.freefiremax";
 
 int isGame(JNIEnv *env, jstring appDataDir) {
     if (!appDataDir) {
