@@ -19,7 +19,7 @@ jobs:
 
     - name: Manually Download ImGui Source
       run: |
-        git clone --depth 1 https://github.com /tmp/imgui
+        git clone --depth 1 https://github.com/ocornut/imgui.git /tmp/imgui
         mkdir -p module/src/main/cpp/Includes/imgui
         cp /tmp/imgui/*.h module/src/main/cpp/Includes/imgui/
         cp /tmp/imgui/*.cpp module/src/main/cpp/Includes/imgui/
